@@ -91,7 +91,7 @@ export const Highlights = ({ color, session }: IHighlights) => {
         <div className="lg:mr-8 mr-0 rounded-3x lg:pt-0 pt-10 ">
           <div className="relative w-full h-full flex flex-col justify-start">
             {session.video && (
-              <div className="relative">
+              <div className="relative max-w-3xl">
                 <video
                   className="rounded-3xl cursor-pointer"
                   controls

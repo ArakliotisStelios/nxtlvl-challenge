@@ -2,10 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
-.hide-scroll-bar {
+/* .hide-scroll-bar {
   -ms-overflow-style: none;
   scrollbar-width: none;
 }
 .hide-scroll-bar::-webkit-scrollbar {
   display: none;
-}
+} */
