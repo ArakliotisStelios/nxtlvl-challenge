@@ -27,7 +27,7 @@ export const Timeline = ({ timelineRef, highlights }: ExampleProps) => {
   };
 
   return (
-    <div className="border-dashed border-t-2 border-b-2 border-black mt-14">
+    <div className="border-dashed border-t-2 border-b-2 border-black mt-14 mb-20">
       {cursorPosition.x > 0 && (
         <div
           style={{ left: `${cursorPosition.x}px ` }}
